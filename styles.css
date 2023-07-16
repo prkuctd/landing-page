@@ -33,11 +33,12 @@ button {
 
 .box {
     border: 1em solid lightcoral;
-    width: 20%;
     height: 100px;
-    width: 100px;
-    text-align: center;
+    flex: 0 0 100px;
+    min-width: 100px;
+    flex-basis: auto;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .boxes-wrapper {
@@ -46,6 +47,8 @@ button {
     align-content: center;
     gap: 20px;
     width: 100%;
+    flex-basis: 100px;
+    flex-wrap: wrap;
 }
 
 .text-mid-wrapper {
@@ -58,12 +61,12 @@ button {
     margin: 0;
 }
 
-    .card-mid {
-        display: flex;
-        align-content: center;
-        align-items: center;
-        flex-direction: column;  
-    }
+.card-mid {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
 
 .text {
     text-align: center;
