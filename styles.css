@@ -11,6 +11,9 @@ a {
     text-decoration: none;
 }
 
+button {
+    width: 80px;
+}
 
 .menu ul {
     display: flex;
@@ -21,4 +24,71 @@ a {
 
 .header-logo {
     margin-right: auto;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 1em solid lightcoral;
+    width: 20%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.boxes-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.text-mid-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 140px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+    .card-mid {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;  
+    }
+
+.text {
+    text-align: center;
+}
+
+.text-image-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.separate {
+    margin-bottom: 10%;
+}
+
+.card-top-left {
+    width: 50%;
+}
+
+.card-top-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.card-both {
+    display: flex;
 }
