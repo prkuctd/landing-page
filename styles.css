@@ -11,6 +11,8 @@ a {
     text-decoration: none;
 }
 
+
+
 button {
     width: 80px;
 }
@@ -23,13 +25,10 @@ button {
 }
 
 .header-logo {
+    display: flex;
     margin-right: auto;
 }
 
-.card-top {
-    display: flex;
-    flex-direction: column;
-}
 
 .box {
     border: 1em solid lightcoral;
@@ -66,6 +65,7 @@ button {
     align-content: center;
     align-items: center;
     flex-direction: column;  
+    margin-bottom: 10vh;
 }
 
 .text {
@@ -77,21 +77,78 @@ button {
     flex-flow: column wrap;
 }
 
-.separate {
-    margin-bottom: 10%;
-}
-
-.card-top-left {
-    width: 50%;
-}
-
-.card-top-right {
+.top-wrapper {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.placeholder-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     width: 50%;
+    text-align: center;
 }
 
-.card-both {
+.both-wrapper {
+    margin-top: 5vh;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 12vh;
+
+}
+
+.inspiring-text-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: aquamarine;
+    flex-basis: auto;
+    
+}
+
+.inspiring-text {
+    width: 50%;
+}
+
+.call-to-action-wrapper {
+    width: 100%;
+    display: flex;
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cta-both {
+    background-color: lightblue;
+    display: flex;
+    width: 50%;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    width: 100%;
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+    min-height: 5vh;
+    align-items: center;
+    flex: 1 1 auto;
 }
