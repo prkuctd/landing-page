@@ -21,7 +21,7 @@ button {
     display: flex;
     gap: 10px;
     padding: 10px;
-    background-color: lightblue;
+    background-color: #1F2937;
 }
 
 .header-logo {
@@ -94,12 +94,12 @@ button {
 }
 
 .both-wrapper {
-    margin-top: 5vh;
+    padding-top: 5vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 12vh;
-
+    padding-bottom: 12vh;
+    background-color: #1F2937;
 }
 
 .inspiring-text-wrapper {
@@ -151,4 +151,19 @@ button {
     min-height: 5vh;
     align-items: center;
     flex: 1 1 auto;
+}
+
+.hero-text {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    color: white;
 }
