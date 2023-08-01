@@ -106,6 +106,7 @@ button {
     background-color: #1F2937;
     gap: 20px;
 }
+
 .placeholder-wrapper {
     display: flex;
     justify-content: center;
@@ -146,7 +147,8 @@ button {
 .call-to-action {
     display: flex;
     flex-flow: column wrap;
-    color: #E5E7EB;
+    color: #F9FAF8;
+    font-weight: 500;
 }
 
 .cta-both {
